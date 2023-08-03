@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/EniFrancia",
+        "create path (nt:unstructured) /content/dam/EniFrancia/jcr:content",
+        "set properties on /content/dam/EniFrancia/jcr:content\n  set cq:conf{String} to /conf/EniFrancia\n  set jcr:title{String} to \"Eni Francia Site\"\nend"
+    ]
+}

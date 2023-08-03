@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/EniFrancia/clientlibs"/>
+    <filter root="/apps/EniFrancia/components"/>
+    <filter root="/apps/EniFrancia/i18n"/>
+    <filter root="/apps/sling" />
+</workspaceFilter>

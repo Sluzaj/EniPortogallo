@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/EniFrancia" mode="merge"/>
+    <filter root="/content/EniFrancia" mode="merge"/>
+    <filter root="/content/dam/EniFrancia" mode="merge">
+        <exclude pattern="/content/dam/EniFrancia(/.*)?"/>
+        <include pattern="/content/dam/EniFrancia/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/EniFrancia/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/EniFrancia" mode="merge"/>
+</workspaceFilter>
